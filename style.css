@@ -1,7 +1,9 @@
-html {
+body {
   font-family: 'Arimo', sans-serif;
   font-size: 16px;
   background: #EEE;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -16,9 +18,11 @@ p {
 #root {
   max-width: 800px;
   margin: 1rem auto;
+  padding: .5rem;
   text-align: center;
 }
 
 iframe {
+  max-width: 100%;
   margin: 0 auto;
 }
